@@ -1,0 +1,16 @@
+/*Ejemplo de uso de medidas relativas*/
+body{
+    font-size: 16px;
+}
+
+p{
+    width: 50%; /* 16 pixeles*/
+}
+
+article{
+    font-size: 1.5em; /*24 pixeles*/
+}
+
+div{
+    font-size: 2rem; /*32 pixeles*/
+}

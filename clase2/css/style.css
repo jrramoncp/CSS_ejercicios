@@ -1,0 +1,9 @@
+/*Ejemplo de style con medidas absolutas*/
+p{
+    width: 500px;
+    font-size: 18px;
+}
+
+article{
+    font-size: 26px;
+}
