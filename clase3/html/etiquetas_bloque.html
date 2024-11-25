@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 3: Tipos de etiquetas y CSS en el navegador</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Clase 3: Tipos de etiquetas y CSS en el navegador</h1>
+        <h2>Etiquetas bloque</h2>
+        <nav>
+            <a href="../index.html">Volver atrás</a>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nisi rem maxime quisquam deserunt ipsam ea atque? Ipsa recusandae error cupiditate enim, sunt voluptas molestiae ipsum perspiciatis reprehenderit veritatis qui!</p>
+        <p>Hola soy un párrafo pequeño</p>
+        <p>Hola soy otro párrafo pequeño</p>
+        <!-- Renderiza ocupando todo el ancho de pantalla disponible-->
+
+        <a href="https://www.google.com">Google y otras cosas</a><a href="http://conquercrypto.com">Y este es otro enlace</a>
+        <!--Dos etiquetas de linea una la lado de la otra, se renderiza en la misma linea, ya que solo ocupa el ancho de su contenido-->
+
+        <a href="https://www.google.com">Google y demás historias <strong>con un enlace</strong></a>
+        <!--Una etiqueta de linea dentro de otra, en este caso la etiqueta strong el contenido es solamente el texto que envuelve. Ocurre lo mismo con las etiquetas span. -->
+
+        <article>
+            <h3>Soy un encabezado</h3>
+            <p>Lorem ipsum dolor sit amet <span>consectetur adipisicing elit.</span> Consequatur quo necessitatibus esse nostrum provident, est quaerat reiciendis sunt doloremque eaque reprehenderit, ut ducimus inventore ipsam quae cum expedita fugit velit!</p>
+            <!--Una etiqueta de linea <spàn> dentro de una etiqueta de bloque-->
+        </article>
+        <!--Aunque metamos etiquetas de bloque en un contenedor (otra etiqueta de bloque) renderizará ocupando todo el ancho de pantalla disponible como es el caso-->
+    </main>
+    <footer>
+        <hr>
+        Hecho por JrRamonCP. 2024. Todos los derechos reservados
+    </footer>
+</body>
+</html>
