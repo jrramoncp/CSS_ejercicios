@@ -1,0 +1,48 @@
+/*1.Primer elemento <a> hijo de <p>*/
+p:first-child a{
+    color: red;
+}
+/*2.Los checkbox que esten márcados, hijos de un form*/
+form:focus-within checkbox{
+    color:blue;
+}
+
+/*3.ultimo <p> descendiente de un <article>*/
+article:last-child p{
+    color:red;
+}
+
+/*4.segundo hijo de un elemento section*/
+section:nth-child(2){
+    color:red;
+}
+
+/*5.seleccionar los hijos pares de un element ol*/
+section:nth-child(2n){
+    color:red;
+}
+section:nth-child(even){
+    color:red;
+}
+/*6.Seleccionar el antepenúltimo li de un ul de longitud indefinida*/
+ul li:nth-last-child(3){
+    color: red;
+}
+/*7.El segundo a dentro de un p*/
+p:nth-of-type(2) a{
+    color:red;
+}
+
+/*8.Los button que sean hijos unicos*/
+button:only-of-type{
+    color:red
+}
+/*9.Los <span> que sean primeros hijos de un <p>*/
+p span:first-child{
+    color: gold;
+}
+
+/*10. Penultimo hijo de body*/
+body:nth-last-child(2){
+    color: blue;
+}
